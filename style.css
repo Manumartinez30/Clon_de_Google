@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.cajagrande {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    width: 1400px;
+    height: 130px;
+}
+
+
+
+
+
+
+
+/* trabajdo de la caja pequeña uno*/
+
+.caja-pequeña {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+}
+
+.caja-pequeña img {
+    width: 60px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.bloque1 {
+    background: #ffffff;
+}
+
+
+
+
+/*trabajo dela caja pequeña dos*/
+
+.caja-pequeña2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background: rgb(255, 255, 255);
+    width: 600px;
+    height: 100px;
+
+}
+
+.buscar {
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input {
+    width: 600px;
+    height: 30px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 40px;
+    border: solid 2px black;
+}
+
+
+
+
+
+/* trabajo de la caja pequeña tres*/
+
+.caja-pequeña3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 100px;
+
+}
+
+.caja-pequeña3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+
+}
+
+
+
+/*aqui comienza el main*/
+
+.galeria-1 {
+    background: rgb(255, 247, 255);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: auto;
+}
+
+
+.hijo {
+    border-radius: 12px;
+    background-color: white;
+    width: 200px;
+    min-height: 20vw;
+    margin: 2vw;
+}
+
+.hijo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: solid grey;
+}
